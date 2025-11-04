@@ -43,7 +43,7 @@ export const Task1 = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 text-black flex flex-col items-center p-10">
+    <div className=" bg-gray-100 text-black flex flex-col items-center p-10">
       <h1 className="font-bold mb-10">
         Zadanie 1: Przetasuj litery w środku wyrazów
       </h1>
