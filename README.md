@@ -1,8 +1,15 @@
-# React + Vite
+aby uruchomić projekt należy sklonować repozytorum
+zainstaluj zależności: "npm install"
+aby uruchomić lokalnie użyj: "npm run dev"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+strona powinna być dostępna pod adresem http://localhost:5173
 
-Currently, two official plugins are available:
+aby uruchomić testy należy użyć polecenia: "npm run test"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+aby edycja w zadaniu nr 3 działała, należy utworzyć plik w głównym folderze z projektem o nazwie .env.local a w nim zmienną VITE_GOREST_TOKEN i przypisać do niej własny klucz API do strony https://gorest.co.in/
+
+przykład:
+
+VITE_GOREST_TOKEN=t0j35tpr2yk7ad0wyt0k3nd0wyk0r53tan1a
+
+użyto React, Vite, TailwindCSS, Axios, Vitest
